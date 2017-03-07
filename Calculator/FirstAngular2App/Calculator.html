@@ -1,0 +1,34 @@
+﻿<div class="container calculator">
+    <div id="calculator">
+        <!-- Screen and clear key -->
+        <div class="top">
+            <!--<span (click)="clear()" class="clear">C</span>-->
+            <div class="screen">{{result}}</div>
+        </div>
+        <div class="top">
+            <span (click)="clear()" class="clear">C</span>
+            <span (click)="sqrt()" class="clear">sqrt</span>
+            <span (click)="assignOperator('^')" class="clear">^</span>
+            <!--<div class="screen">{{result}}</div>-->
+        </div>
+        <div class="keys">
+            <!-- operators and other keys -->
+            <span (click)="assignOperand(7)">7</span>
+            <span (click)="assignOperand(8)">8</span>
+            <span (click)="assignOperand(9)">9</span>
+            <span (click)="assignOperator('+')" class="operator">+</span>
+            <span (click)="assignOperand(4)">4</span>
+            <span (click)="assignOperand(5)">5</span>
+            <span (click)="assignOperand(6)">6</span>
+            <span (click)="assignOperator('-')" class="operator">-</span>
+            <span (click)="assignOperand(1)">1</span>
+            <span (click)="assignOperand(2)">2</span>
+            <span (click)="assignOperand(3)">3</span>
+            <span (click)="assignOperator('/')" class="operator">÷</span>
+            <span (click)="assignOperand(0)">0</span>
+            <span (click)="assignOperand('.')">.</span>
+            <span (click)="evaluate()" class="eval">=</span>
+            <span (click)="assignOperator('*')" class="operator">x</span>
+        </div>
+    </div>    
+</div>
