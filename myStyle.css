@@ -580,7 +580,8 @@ opacity:0.9;
 {
     margin: -45px 10px 0px 25px;
     z-index: 9;
-    width: 20%; 
+    border-radius: 144.1px;
+    width: 13%; 
 }
 }
     
