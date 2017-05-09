@@ -565,7 +565,8 @@ opacity:0.9;
 {
     margin: -90px 10px 0px 50px;
     z-index: 9;
-    width: 20%; 
+    border-radius: 144.1px;
+    width: 13%; 
 }
 
 @media (max-width:768px)
